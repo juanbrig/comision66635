@@ -6,11 +6,11 @@ html {
 
 body {
     margin: 0;
-    font-family:  'Roboto', sans-serif; 
-    }
+    font-family: 'Roboto', sans-serif;
+}
 
 header {
-    background-color: #000000;  
+    background-color: #000000;
     display: flex;
     justify-content: space-between;
 }
@@ -73,7 +73,7 @@ header {
     object-position: center;
 }
 
-.modelos  {
+.modelos {
     height: 400px !important;
     width: 100% !important;
     object-fit: cover !important;
@@ -97,10 +97,10 @@ section a {
 h1 {
     color: #ffffff;
     padding: 10px;
-    margin-bottom: 0px !important; 
+    margin-bottom: 0px !important;
 }
 
-.subir{
+.subir {
     width: 40px;
     height: 40px;
     color: rgb(255, 255, 255);
@@ -112,28 +112,31 @@ h1 {
     line-height: 40px;
     border-radius: 20px;
     font-size: 20px;
-    box-shadow: 0 0 10px 3px rgba(255,255,255,0.5);
-}    
-.subir:hover{
+    box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.5);
+}
+
+.subir:hover {
     color: #ffffff;
 }
 
 
-#ig :hover{
+#ig :hover {
     color: #3f729b !important;
 }
 
 
-@media (max-width: 1000px) { 
+@media (max-width: 1000px) {
     .sidebar {
         display: none;
     }
+
     .hamburger {
         display: flex;
         position: absolute;
         right: 15px;
         top: 15px;
     }
+
     header {
         justify-content: center;
     }
@@ -151,13 +154,13 @@ footer {
     color: rgba(222, 226, 230, 0.75) !important;
 }
 
-.footer__a {	
+.footer__a {
     text-decoration: none;
     padding: 5px;
     color: rgba(222, 226, 230, 0.75) !important
 }
 
-footer p {	
+footer p {
     color: rgba(222, 226, 230, 0.75) !important
 }
 
@@ -171,7 +174,7 @@ footer p {
     border-start-end-radius: 15px;
 }
 
-.row {	
+.row {
     margin-left: 0px !important;
     margin-right: 0px !important;
 }
@@ -180,7 +183,7 @@ footer p {
     min-height: 540px;
 }
 
-h1 {	
+h1 {
     color: #ffffff;
     padding: 10px;
     padding-top: 50px;
@@ -212,6 +215,7 @@ h1 {
         gap: 100px;
         height: fit-content;
     }
+
     .card-img-top {
         height: 250px;
         width: 300px;
@@ -237,4 +241,3 @@ h1 {
     align-items: left;
     width: 100%;
 }
-
